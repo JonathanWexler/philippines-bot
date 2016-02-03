@@ -1,0 +1,6 @@
+require 'slack-ruby-bot'
+require 'fact-bot/commands/fact_me'
+require 'fact-bot/commands/help'
+require 'fact-bot/commands/about'
+require 'fact-bot/bot'
+require 'fact-bot/slackbot'
