@@ -19,9 +19,9 @@ module SlackRubyBot
             client.say(channel: data.channel, text: "<@#{data.user}>, you're.......ok")
         end
 
-        match /project/ do |client, data, match|
-            client.say(channel: data.channel, text: "Get ready for final independent projects starting on February 15th! Start thinking of ideas and slack <@wexler>")
-        end
+        # match /project/ do |client, data, match|
+        #     client.say(channel: data.channel, text: "Get ready for final independent projects starting on February 15th! Start thinking of ideas and slack <@wexler>")
+        # end
         match /seth/ do |client, data, match|
             client.say(channel: data.channel, text: ":trip-seth: :trip-seth: :trip-seth:")
         end        
