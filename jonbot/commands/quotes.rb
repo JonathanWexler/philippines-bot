@@ -15,7 +15,7 @@ module Quotes
         "When it is obvious that the goals cannot be reached, don't adjust the goals, adjust the action steps.",
         "To know what you know and what you do not know, that is true knowledge.",
         "All the single ladies, all the single ladies.",
-        "Happy hour on the 16th :simple-smile:",
+        "Happy hour on the 16th :simple_smile:",
         "Add, commit, then push. One must rebase from time to time.",
         "Ask your friend for help, because Jon is not here.",
         "Jon is here to help and it ain't no thang.",

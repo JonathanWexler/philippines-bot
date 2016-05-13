@@ -7,7 +7,7 @@ module SlackRubyBot
   module Commands
       class Random < SlackRubyBot::Commands::Base      
         match /love/ do |client, data, match|
-            client.say(channel: data.channel, text: "<@#{data.user}>, love your code!")
+            client.say(channel: data.channel, text: "<@#{data.user}>, YAY!")
         end
         match /suck/ do |client, data, match|
             client.say(channel: data.channel, text: "Confucius say: 'When anger rises, think of the consequences.'")
@@ -24,7 +24,11 @@ module SlackRubyBot
         # end
         match /seth/ do |client, data, match|
             client.say(channel: data.channel, text: ":trip-seth: :trip-seth: :trip-seth:")
-        end        
+        end   
+
+        match /hey/ do |client, data, match|
+            client.say(channel: data.channel, text: "Hey, FYI, this is JonBot (not @wexler)")
+        end      
         match /jon/ do |client, data, match|
             client.say(channel: data.channel, text: "Confucius say: #{Quotes.random_quote}")
         end
